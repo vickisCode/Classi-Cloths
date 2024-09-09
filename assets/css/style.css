@@ -134,32 +134,32 @@
 /* --------------- Section 3 --------------------- End ------------------------ */
 
 /* --------------- Section 5 --------------------- Start -----------------------*/
-.specials-section {
+.specials_section {
     text-align: center;
     padding-bottom: 150px;
 }
 
-.specials-section h2 {
+.specials_section h2 {
     font-weight: bold;
     margin-bottom: 40px;
 }
 
-.specials-section .card {
+.specials_section .card {
     border: none;
     background-color: transparent;
 }
 
-.specials-section .card img {
+.specials_section .card img {
     width: 50px;
     height: 50px;
 }
 
-.specials-section .card-title {
+.specials_section .card-title {
     font-weight: bold;
     margin-top: 20px;
 }
 
-.specials-section .card-text {
+.specials_section .card-text {
     font-size: 14px;
     color: #5c5c5c;
 }
@@ -197,15 +197,16 @@
 /* --------------- Section 5 --------------------- End -----------------------*/
 
 /* --------------- Section 6 --------------------- Start -----------------------*/
-.testimonials-section {
+.testimonials_section {
     text-align: center;
     padding: 50px 0;
     background-color: #F9EFE5;
 }
 
-.testimonials-section h2 {
+.testimonials_section h2 {
     font-weight: bold;
     margin-bottom: 40px;
+    font-size: 3.0rem;
 }
 
 .testimonial-card {
@@ -300,20 +301,22 @@
 
 /* **************************** Section 8 **************************** */
 
-.subscribe-section {
+.subscribe_section {
     background-color: #595959;
     color: #fff;
     padding: 50px 0;
     text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
-.subscribe-section h2 {
-    font-size: 2.5rem;
+.subscribe_section h2 {
+    font-size: 3.0rem;
     margin-bottom: 20px;
 }
 
-.subscribe-section p {
-    font-size: 1.2rem;
+.subscribe_section p {
+    font-size: 1.0rem;
     margin-bottom: 30px;
 }
 
