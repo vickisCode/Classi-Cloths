@@ -1,0 +1,51 @@
+/* ***********************************    Media Query   ************************************** */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .top_img{
+        width: 500px;
+        height: 550px;
+    }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) and (max-width: 697px) {
+    
+    .top_img{
+        width: 650px;
+        height: 700px;
+       }
+
+  }
+  
+  /* Medium devices (landscape tablets, 698px and up) */
+  @media only screen and (min-width: 698px) and (max-width: 991px) {
+    
+    .top_img{
+        width: 450px;
+        height: 550px;
+       }
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+   
+    .top_img{
+        width: 570px;
+        height: 650px;
+       }
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+   .top_img{
+    width: 570px;
+    height: 650px;
+   }
+
+  }

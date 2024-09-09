@@ -1,0 +1,381 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* --------------- NavBar ------------------------ Start -------------------------- */
+
+.navbar {
+    padding: 10px 20px;
+    border-bottom: 2px solid #ff7043;
+}
+
+.nav_link_design {
+    color: #333;
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav_link_design:hover {
+    color: #ff7043;
+}
+
+.cart_btn {
+    background-color: #ff7043;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.cart_btn:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 1px solid green;
+}
+
+/* --------------- NavBar ------------------------ End -------------------------- */
+
+/* --------------- Section 1 --------------------- Start ------------------------ */
+
+.section1_h1 {
+    font-size: 2.5rem;
+    color: #3d3d3d;
+}
+
+.section1_img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* --------------- Section 1 --------------------- End ------------------------ */
+
+/* --------------- Section 2 --------------------- Start ------------------------ */
+
+.product_section {
+    background-color: #f8f2eb;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #3d3d3d;
+}
+
+.color_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.btn_Add_to_Cart {
+    background-color: #ff7043;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-weight: 700;
+}
+
+.btn_Add_to_Cart:hover {
+    background-color: #ffffff;
+    border: 2px solid #ff7043;
+}
+
+/* --------------- Section 2 --------------------- End ------------------------ */
+
+
+/* --------------- Section 3 --------------------- Start ------------------------ */
+
+.banner_section {
+    background-color: #595959;
+    padding: 40px 20px;
+}
+
+.banner_design {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section_3_h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.section3_para {
+    color: #e0e0e0;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.btn_shop_now {
+    background-color: #ff7043;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn_shop_now:hover {
+    background-color: #595959;
+    color: #ff7043;
+    border: 2px solid #ff7043;
+}
+
+/* --------------- Section 3 --------------------- End ------------------------ */
+
+/* --------------- Section 5 --------------------- Start -----------------------*/
+.specials-section {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.specials-section h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.specials-section .card {
+    border: none;
+    background-color: transparent;
+}
+
+.specials-section .card img {
+    width: 50px;
+    height: 50px;
+}
+
+.specials-section .card-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.specials-section .card-text {
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.shop-btn {
+    margin-top: 40px;
+    padding: 12px 30px;
+    background-color: #f05a28;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.shop-btn:hover {
+    background-color: #dc531f;
+}
+
+.thanks_giving {
+    background-color: #F9EFE5;
+    color: #dc531f;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.thanks_giving_h2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-size: 45px;
+}
+
+/* --------------- Section 5 --------------------- End -----------------------*/
+
+/* --------------- Section 6 --------------------- Start -----------------------*/
+.testimonials-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #F9EFE5;
+}
+
+.testimonials-section h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.testimonial-card {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-body {
+    padding: 20px;
+}
+
+.testimonial-body p {
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.testimonial-body h5 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.testimonial-rating {
+    color: #f05a28;
+    margin-top: 10px;
+}
+
+/* ------------------------ Section 7 ----------------------- */
+.image_container {
+    position: relative;
+    overflow: hidden;
+}
+
+.section7_heading {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section7_heading h1 {
+    font-size: 50px;
+}
+
+.image_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tag_icon {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.discount_tag {
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
+.see_more_btn {
+    margin-top: 70px;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.section_7_pro {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/* **************************** Section 8 **************************** */
+
+.subscribe-section {
+    background-color: #595959;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.subscribe-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.subscribe-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.subscribe_input {
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.subscribe-section {
+    background-color: #595959;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.subscribe-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.subscribe-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.btn_subscribe {
+    background-color: #f95700;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 200px;
+}
+
+.btn-subscribe:hover {
+    background-color: #e84c00;
+}
+
+.form_control {
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 18px;
+}
+
+.form_control::placeholder {
+    color: rgb(74, 71, 71);
+    font-weight: 800;
+}
