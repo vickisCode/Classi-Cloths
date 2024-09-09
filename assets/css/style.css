@@ -271,7 +271,7 @@
 .tag_icon {
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    left: 5px;
     width: 36px;
     height: 36px;
     background: rgba(0, 0, 0, 0.6);
@@ -283,7 +283,7 @@
 
 .discount_tag {
     position: relative;
-    left: 5px;
+    left: 2px;
     top: 2px;
 }
 
