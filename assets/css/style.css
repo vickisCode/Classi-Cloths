@@ -1,25 +1,24 @@
-* {
+
+*{
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* --------------- NavBar ------------------------ Start -------------------------- */
+/* ------------------- Navbar Start ------------------------ */
 
 .navbar {
     padding: 10px 20px;
     border-bottom: 2px solid #ff7043;
+    background-color: #F8F9FA;
 }
-
 .nav_link_design {
     color: #333;
     margin-right: 15px;
     font-weight: 700;
     font-size: 18px;
 }
-
 .nav_link_design:hover {
     color: #ff7043;
 }
-
 .cart_btn {
     background-color: #ff7043;
     color: #ffffff;
@@ -28,7 +27,6 @@
     text-decoration: none;
     border-radius: 15px;
 }
-
 .cart_btn:hover {
     background-color: #fff;
     color: rgb(0, 0, 0);
@@ -36,349 +34,202 @@
     border: 1px solid green;
 }
 
-/* --------------- NavBar ------------------------ End -------------------------- */
+/* --------------------------- Navbar End ------------------------ */
 
-/* --------------- Section 1 --------------------- Start ------------------------ */
+/* --------------------------- Section1 Start -------------------- */
 
-.section1_h1 {
-    font-size: 2.5rem;
+.section1_h1{
     color: #3d3d3d;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.section1_img {
+.section1_img{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-/* --------------- Section 1 --------------------- End ------------------------ */
-
-/* --------------- Section 2 --------------------- Start ------------------------ */
-
-.product_section {
-    background-color: #f8f2eb;
+.btn_shop_now{
+    background-color: #E56639;
+    color: #fff;
+}
+.btn_shop_now:hover{
+    border: 1px solid #E56639;
+    color: #E56639;
 }
 
-.card {
-    border: none;
-    border-radius: 15px;
-    background-color: #fff;
-}
+/* --------------------------- Section1 End ---------------------- */
 
-.card-title {
-    font-size: 1.2rem;
-    color: #3d3d3d;
-}
+/* --------------------------- Section2 Start ---------------------- */
 
-.color_circle {
+.trending_text{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.section2_design{
+    background-color: #F8F2EB;
+    padding-bottom: 100px;
+}
+.choose_color{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    margin: 0 5px;
 }
-
-.btn_Add_to_Cart {
+.btn_choose_size button{
+    border: 1px solid black;
+    background-color: #fff;
+}
+.btn_choose_size button:hover{
+    background-color: #f0da0f;
+}
+.card_btn_shop_now{
     background-color: #ff7043;
-    border: none;
-    color: white;
-    padding: 12px;
-    font-weight: 700;
+    color: #fff;
+    padding: 15px 18px;
 }
-
-.btn_Add_to_Cart:hover {
-    background-color: #ffffff;
-    border: 2px solid #ff7043;
+.card_btn_shop_now:hover{
+    border: 1px solid #ff7043;
+    color: #ff7043;
 }
+/* --------------------------- Section2 End   ---------------------- */
 
-/* --------------- Section 2 --------------------- End ------------------------ */
 
-
-/* --------------- Section 3 --------------------- Start ------------------------ */
-
-.banner_section {
+.section3_design{
     background-color: #595959;
-    padding: 40px 20px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
-
-.banner_design {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.section_3_h1 {
+.section3_design > div p{
     color: #ffffff;
-    margin-bottom: 20px;
-}
-
-.section3_para {
-    color: #e0e0e0;
-    max-width: 600px;
+    max-width: 630px;
     margin: 0 auto 30px auto;
 }
-
-.btn_shop_now {
+.btn_shop_now{
     background-color: #ff7043;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 15px;
-    color: white;
-    font-weight: 700;
-}
+    color: #fff;
+    max-width: fit-content;
+    justify-content: center;
 
-.btn_shop_now:hover {
-    background-color: #595959;
+}
+.btn_shop_now:hover{
+    border: 1px solid #ff7043;
     color: #ff7043;
-    border: 2px solid #ff7043;
 }
 
-/* --------------- Section 3 --------------------- End ------------------------ */
-
-/* --------------- Section 5 --------------------- Start -----------------------*/
-.specials_section {
-    text-align: center;
-    padding-bottom: 150px;
-}
-
-.specials_section h2 {
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-.specials_section .card {
-    border: none;
-    background-color: transparent;
-}
-
-.specials_section .card img {
-    width: 50px;
-    height: 50px;
-}
-
-.specials_section .card-title {
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.specials_section .card-text {
-    font-size: 14px;
-    color: #5c5c5c;
-}
-
-.shop-btn {
-    margin-top: 40px;
-    padding: 12px 30px;
-    background-color: #f05a28;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-}
-
-.shop-btn:hover {
-    background-color: #dc531f;
-}
-
-.thanks_giving {
+/* ----------------------------- Section4 --------------------- */
+.section4_design{
     background-color: #F9EFE5;
-    color: #dc531f;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: fill;
-    border: 1px solid rgb(255, 255, 255);
+    padding-bottom: 100px;
+    padding-top: 70px;
 }
 
-.thanks_giving_h2 {
+/* --------------------------- Section5 Start ------------------------- */
+
+.section5_design{
     padding-top: 120px;
     padding-bottom: 120px;
-    font-size: 45px;
 }
+.section5_h1_font{
+    padding-bottom: 120px;
+}
+.shop_now_save_btn{
+    background-color: #E56639;
+    color: #fff;
+    max-width: fit-content;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+.section5_icons{
+    color: #E56639;
+}
+.shop_now_save_btn:hover{
+    border: 1px solid #E56639;
+}
+/* --------------------------- Section5 End ------------------------- */
 
-/* --------------- Section 5 --------------------- End -----------------------*/
 
-/* --------------- Section 6 --------------------- Start -----------------------*/
-.testimonials_section {
-    text-align: center;
-    padding: 50px 0;
+/* --------------------------- Section5 Start ------------------------- */
+.section6_design{
     background-color: #F9EFE5;
+    padding-top: 80px;
+    padding-bottom: 130px;
 }
 
-.testimonials_section h2 {
-    font-weight: bold;
-    margin-bottom: 40px;
-    font-size: 3.0rem;
+/* --------------------------- Section5 End ------------------------- */
+
+/* --------------------------- Section6 Start ------------------------- */
+
+.section6_card_design{
+    border-radius: 15px;
 }
 
-.testimonial-card {
-    border: none;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
+/* --------------------------- Section6 End ------------------------- */
 
-.testimonial-card img {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #eaeaea;
-}
 
-.testimonial-card:hover {
-    transform: translateY(-10px);
-}
+/* --------------------------- Section7 Start ------------------------- */
 
-.testimonial-body {
-    padding: 20px;
-}
 
-.testimonial-body p {
-    font-size: 14px;
-    color: #5c5c5c;
+.section7_design{
+    padding-top: 120px;
+    padding-bottom: 90px;
 }
-
-.testimonial-body h5 {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-.testimonial-rating {
-    color: #f05a28;
-    margin-top: 10px;
-}
-
-/* ------------------------ Section 7 ----------------------- */
-.image_container {
-    position: relative;
-    overflow: hidden;
-}
-
-.section7_heading {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.section7_heading h1 {
-    font-size: 50px;
-}
-
-.image_container img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.tag_icon {
-    position: absolute;
-    bottom: 10px;
-    left: 5px;
-    width: 36px;
-    height: 36px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 5px;
-    border-radius: 50%;
-    font-size: 18px;
-}
-
-.discount_tag {
-    position: relative;
-    left: 2px;
-    top: 2px;
-}
-
-.see_more_btn {
-    margin-top: 70px;
-    padding: 12px 20px;
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.section_7_pro {
-    text-align: center;
+.section7_para{
     padding-bottom: 60px;
 }
 
-/* **************************** Section 8 **************************** */
+.btn_see_more{
+    background-color: #E56639;
+    color: white;
+    padding: 14px 25px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn_see_more:hover{
+    border: 1px solid #E56639;
+}
+/* --------------------------- Section7 End   ------------------------- */
 
-.subscribe_section {
-    background-color: #595959;
-    color: #fff;
-    padding: 50px 0;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
+/* --------------------------- Section8 Start   ------------------------- */
+
+.section8_design{
+    background-color: #666666;
+    padding-top: 110px;
+    padding-bottom: 130px;
+}
+.section8_design_para{
+    font-size: 13px;
 }
 
-.subscribe_section h2 {
-    font-size: 3.0rem;
-    margin-bottom: 20px;
-}
-
-.subscribe_section p {
-    font-size: 1.0rem;
-    margin-bottom: 30px;
-}
-
-.subscribe_input {
-    max-width: 600px;
+.subscribe_form {
+    max-width: 1600px;
     margin: 0 auto;
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
-
-.social-icons a {
-    color: #fff;
-    font-size: 1.5rem;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.subscribe-section {
-    background-color: #595959;
-    color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.subscribe-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.subscribe-section p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-}
-
-.social-icons a {
-    color: #fff;
-    font-size: 1.5rem;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.btn_subscribe {
-    background-color: #f95700;
-    border: none;
+.btn_subscribe{
+    background-color: #E56639;
+    max-width: 260px;
     color: white;
-    padding: 10px 20px;
-    width: 200px;
+    padding: 12px 25px;
+    border-radius: 15px;
 }
+.btn_subscribe:hover{
+    background-color: #666666;
+    color: #E56639;
+    border: 1px solid #E56639;
+}
+.input_email{
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+.input_email::placeholder{
+    color: #bdbcbc;
+    font-size: 19px;
+}
+/* --------------------------- Section8 End     ------------------------- */
 
-.btn-subscribe:hover {
-    background-color: #e84c00;
-}
-
-.form_control {
-    height: 50px;
-    width: 350px;
-    border-radius: 10px;
-    padding-left: 18px;
-}
-
-.form_control::placeholder {
-    color: rgb(74, 71, 71);
-    font-weight: 800;
-}
