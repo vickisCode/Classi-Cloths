@@ -1,5 +1,4 @@
-
-*{
+* {
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -10,15 +9,18 @@
     border-bottom: 2px solid #ff7043;
     background-color: #F8F9FA;
 }
+
 .nav_link_design {
     color: #333;
     margin-right: 15px;
     font-weight: 700;
     font-size: 18px;
 }
+
 .nav_link_design:hover {
     color: #ff7043;
 }
+
 .cart_btn {
     background-color: #ff7043;
     color: #ffffff;
@@ -27,6 +29,7 @@
     text-decoration: none;
     border-radius: 15px;
 }
+
 .cart_btn:hover {
     background-color: #fff;
     color: rgb(0, 0, 0);
@@ -38,22 +41,25 @@
 
 /* --------------------------- Section1 Start -------------------- */
 
-.section1_h1{
+.section1_h1 {
     color: #3d3d3d;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.section1_img{
+.section1_img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    position: relative;
+    top: 47px;
 }
 
-.btn_shop_now{
+.btn_shop_now {
     background-color: #E56639;
     color: #fff;
 }
-.btn_shop_now:hover{
+
+.btn_shop_now:hover {
     border: 1px solid #E56639;
     color: #E56639;
 }
@@ -62,62 +68,73 @@
 
 /* --------------------------- Section2 Start ---------------------- */
 
-.trending_text{
+.trending_text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
-.section2_design{
+
+.section2_design {
     background-color: #F8F2EB;
     padding-bottom: 100px;
 }
-.choose_color{
+
+.choose_color {
     width: 20px;
     height: 20px;
     border-radius: 50%;
 }
-.btn_choose_size button{
+
+.btn_choose_size button {
     border: 1px solid black;
     background-color: #fff;
 }
-.btn_choose_size button:hover{
-    background-color: #f0da0f;
+
+.btn_choose_size button:hover {
+    background-color: #ffffff;
+    border: 1px solid rgb(195, 180, 9);
 }
-.card_btn_shop_now{
+
+.card_btn_shop_now {
     background-color: #ff7043;
     color: #fff;
     padding: 15px 18px;
 }
-.card_btn_shop_now:hover{
+
+.card_btn_shop_now:hover {
     border: 1px solid #ff7043;
     color: #ff7043;
 }
+
 /* --------------------------- Section2 End   ---------------------- */
 
 
-.section3_design{
+.section3_design {
     background-color: #595959;
     padding-top: 130px;
     padding-bottom: 130px;
 }
-.section3_design > div p{
+
+.section3_design>div p {
     color: #ffffff;
     max-width: 630px;
     margin: 0 auto 30px auto;
 }
-.btn_shop_now{
+
+.btn_shop_now {
     background-color: #ff7043;
     color: #fff;
     max-width: fit-content;
     justify-content: center;
 
 }
-.btn_shop_now:hover{
+
+.btn_shop_now:hover {
     border: 1px solid #ff7043;
     color: #ff7043;
 }
 
 /* ----------------------------- Section4 --------------------- */
-.section4_design{
+.section4_design {
     background-color: #F9EFE5;
     padding-bottom: 100px;
     padding-top: 70px;
@@ -125,14 +142,16 @@
 
 /* --------------------------- Section5 Start ------------------------- */
 
-.section5_design{
+.section5_design {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.section5_h1_font{
+
+.section5_h1_font {
     padding-bottom: 120px;
 }
-.shop_now_save_btn{
+
+.shop_now_save_btn {
     background-color: #E56639;
     color: #fff;
     max-width: fit-content;
@@ -141,20 +160,23 @@
     font-size: 18px;
     padding: 15px 15px;
 }
-.section5_icons{
+
+.section5_icons {
     color: #E56639;
     z-index: 10;
     position: relative;
     bottom: 5px;
 }
-.shop_now_save_btn:hover{
+
+.shop_now_save_btn:hover {
     border: 1px solid #E56639;
 }
+
 /* --------------------------- Section5 End ------------------------- */
 
 
 /* --------------------------- Section5 Start ------------------------- */
-.section6_design{
+.section6_design {
     background-color: #F9EFE5;
     padding-top: 80px;
     padding-bottom: 130px;
@@ -164,7 +186,7 @@
 
 /* --------------------------- Section6 Start ------------------------- */
 
-.section6_card_design{
+.section6_card_design {
     border-radius: 15px;
 }
 
@@ -174,34 +196,50 @@
 /* --------------------------- Section7 Start ------------------------- */
 
 
-.section7_design{
+.section7_design {
     padding-top: 120px;
     padding-bottom: 90px;
 }
-.section7_para{
+
+.section7_para {
     padding-bottom: 60px;
 }
 
-.btn_see_more{
+.btn_see_more {
     background-color: #E56639;
     color: white;
     padding: 14px 25px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-.btn_see_more:hover{
+
+.btn_see_more:hover {
     border: 1px solid #E56639;
 }
+
+/* -- tag -- */
+.tag_btn {
+    position: relative;
+    top: 120px;
+    right: 205px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0e0d0d8a;
+    border: none;
+}
+
 /* --------------------------- Section7 End   ------------------------- */
 
 /* --------------------------- Section8 Start   ------------------------- */
 
-.section8_design{
+.section8_design {
     background-color: #666666;
     padding-top: 110px;
     padding-bottom: 130px;
 }
-.section8_design_para{
+
+.section8_design_para {
     font-size: 13px;
 }
 
@@ -212,31 +250,36 @@
     display: flex;
     flex-wrap: wrap;
 }
-.btn_subscribe{
+
+.btn_subscribe {
     background-color: #E56639;
     max-width: 260px;
     color: white;
     padding: 12px 25px;
     border-radius: 15px;
 }
-.btn_subscribe:hover{
+
+.btn_subscribe:hover {
     background-color: #666666;
     color: #E56639;
     border: 1px solid #E56639;
 }
-.input_email{
+
+.input_email {
     height: 60px;
     border: none;
     border-radius: 15px;
     padding-left: 25px;
 }
-.input_email::placeholder{
+
+.input_email::placeholder {
     color: #bdbcbc;
     font-size: 19px;
 }
+
 /* --------------------------- Section8 End     ------------------------- */
 
-.icon_btn_icons{
+.icon_btn_icons {
     background-color: #F9EFE5;
     border-radius: 50%;
     width: 70px;
@@ -244,11 +287,61 @@
     z-index: 2;
     border: none;
 }
-.icon_btn_icons_b{
+
+.icon_btn_icons_b {
     background-color: #3B3026;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     z-index: 2;
     border: none;
+}
+
+
+/* ----------------------- Instagram Image Hover ------------------------------ */
+#products {
+    background-size: 100%;
+    /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease;
+    /* Smooth transition for zoom-out effect */
+    position: relative;
+    /* Required for absolute positioning of the overlay */
+    height: 300px;
+    /* Add a specific height to display the image */
+}
+
+.overlay {
+    background-color: #000000a1;
+    /* Semi-transparent black */
+    position: absolute;
+    /* Absolute positioning to cover the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Cover the entire image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .25s ease;
+}
+
+#products:hover .overlay {
+    opacity: 0.9;
+    /* Make overlay visible on hover */
+}
+
+#products:hover {
+    background-size: 120%;
+    /* Zoom-out effect */
+}
+
+.read-article {
+    font-family: HelveticaNeueLTStd;
+    font-weight: 400;
+    font-size: .85rem;
+    text-transform: uppercase;
+    color: white;
 }
